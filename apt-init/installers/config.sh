@@ -18,4 +18,4 @@ log "Installing fish config directory:" && \
 sudo --preserve-env=HOME -u $USER mkdir -p ~/.config/fish && \
 
 log "Installing fish config:" && \
-sudo --preserve-env=HOME -u $USER ln -rsfn config.fish ~/.config/fish/config.fish && \
+sudo --preserve-env=HOME -u $USER ln -rsfn config.fish ~/.config/fish/config.fish

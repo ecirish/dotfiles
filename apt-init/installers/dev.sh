@@ -23,6 +23,7 @@ aptitude install \
   python3-dev \
   python3-pip \
   redis-server
+&& \
 
 log "Installing Fisherman:" && \
 sudo -u $USER \
