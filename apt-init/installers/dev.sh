@@ -34,8 +34,7 @@ sudo -u $USER fish -c "fisher add FabioAntunes/fish-nvm" && \
 sudo -u $USER fish -c "fisher add edc/bass" && \
 
 log "Installing Node.js via nvm:" && \
-fish -c 'nvm install 13.11.0' && \
-fish -c 'nvm alias default 13.11.0' && \
+fish -c 'nvm install node' && \
 
 log "Installing yarn:" && \
 fish -c 'npm install --global yarn'
