@@ -21,7 +21,6 @@ aptitude install \
   openjdk-8-jdk \
   nodejs \
   yarn \
-  silversearcher-ag \
   vim \
   python3-dev \
   python3-pip \
