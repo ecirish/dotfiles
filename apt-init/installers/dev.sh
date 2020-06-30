@@ -35,6 +35,7 @@ sudo -u $USER fish -c "fisher add edc/bass" && \
 
 log "Installing Node.js via nvm:" && \
 fish -c 'nvm install node' && \
+fish -c 'nvm alias default node' && \
 
 log "Installing yarn:" && \
 fish -c 'npm install --global yarn'
