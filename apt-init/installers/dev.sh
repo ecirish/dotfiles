@@ -19,8 +19,6 @@ aptitude install \
   git \
   htop \
   openjdk-8-jdk \
-  nodejs \
-  yarn \
   vim \
   python3-dev \
   python3-pip \
