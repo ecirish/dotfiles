@@ -4,7 +4,7 @@ node -v && \
 npm -v && \
 yarn -v &&\
 
-vue-cli --version && \
+vue --version && \
 eslint --version && \
 feathers --version && \
 ngrok --version && \
