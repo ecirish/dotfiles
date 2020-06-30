@@ -1,6 +1,6 @@
 # dotfiles
 
-[![Build Status](https://travis-ci.org/suitupalex/dotfiles.svg?branch=master)](https://travis-ci.org/suitupalex/dotfiles)
+[![Build Status](https://travis-ci.org/ecirish/dotfiles.svg?branch=master)](https://travis-ci.org/ecirish/dotfiles)
 
 My personal dotfiles.
 
