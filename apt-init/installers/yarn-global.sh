@@ -9,10 +9,12 @@ yarn global add \
   eslint \
   eslint-config-airbnb \
   eslint-plugin-import \
+  eslint-plugin-standard \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \
   ngrok \
   pm2 \
   n \
   expo-cli \
+  @vue/cli \
   @feathersjs/cli
