@@ -35,7 +35,7 @@ sudo -u $USER fish -c "fisher add FabioAntunes/fish-nvm" && \
 sudo -u $USER fish -c "fisher add edc/bass" && \
 
 log "Installing Node.js via nvm:" && \
-fish -c 'nvm use latest' && \
+fish -c 'nvm install latest' && \
 
 log "Installing yarn:" && \
 npm install --global yarn
