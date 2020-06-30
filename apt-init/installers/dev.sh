@@ -30,8 +30,7 @@ sudo -u $USER \
   curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher && \
 
 log "Installing fish plugins:" && \
-sudo -u $USER fish -c "fisher add FabioAntunes/fish-nvm" && \
-sudo -u $USER fish -c "fisher add edc/bass" && \
+sudo -u $USER fish -c "fisher add jorgebucaran/fish-nvm" && \
 
 log "Installing Node.js via nvm:" && \
 fish -c 'nvm install 13.11.0' && \
