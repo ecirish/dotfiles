@@ -20,9 +20,6 @@ sudo --preserve-env=HOME -u $USER mkdir -p ~/.config/fish && \
 log "Installing fish config:" && \
 sudo --preserve-env=HOME -u $USER ln -rsfn config.fish ~/.config/fish/config.fish && \
 
-log "Installing vim bundles:" && \
-sudo --preserve-env=HOME -u $USER ./apt-init/installers/pathogen.sh && \
-
 log "Installing Fisherman:" && \
 sudo --preserve-env=HOME -u $USER \
   curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher && \
