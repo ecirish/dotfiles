@@ -28,4 +28,4 @@ sudo --preserve-env=HOME -u $USER \
   curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher && \
 
 log "Installing fish plugins:" && \
-sudo --preserve-env=HOME -u $USER fish -c "fisher add edc/bass" && \
+sudo --preserve-env=HOME -u $USER fish -c "fisher add edc/bass"
