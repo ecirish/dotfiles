@@ -1,13 +1,16 @@
 [user]
-	name = Alex Martin
-	email = alex@suitupalex.com
-
+	name = Eric Irish
+	email = ecirish@gmail.com
 [alias]
   plog = log --graph --all --oneline --decorate
-[core]
-	excludesfile = ~/.gitignore_global
-	filemode = false
-	eol = lf
-	autocrlf = input
+	st = status
+  fixlast = commit --amend --no-edit
+  co = checkout
 [color]
-	ui = true
+  ui = true
+[push]
+	default = current
+[branch]
+	autosetuprebase = always
+[pull]
+	rebase = true
