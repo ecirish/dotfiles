@@ -15,6 +15,5 @@ mongod --version && \
 
 fish -v && \
 vim --version && \
-ag --version && \
 htop --version && \
 git --version
