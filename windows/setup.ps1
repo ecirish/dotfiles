@@ -1,7 +1,7 @@
 echo "Running windows setup:"
 
 echo "Running ninite:"
-./windows/ninite-7zip-chrome-discord-spotify-steam-vlc-zoom.exe
+./windows/ninite-7zip-chrome-discord-essentials.exe
 echo "Finished running ninite."
 
 ./windows/remove-bloatware.ps1
