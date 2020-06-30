@@ -37,4 +37,4 @@ fish -c 'nvm install 13.11.0' && \
 fish -c 'nvm alias default 13.11.0' && \
 
 log "Installing yarn:" && \
-npm install --global yarn
+fish -c 'npm install --global yarn'
