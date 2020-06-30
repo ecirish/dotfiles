@@ -14,7 +14,5 @@ fish -c 'yarn global add \
   eslint-plugin-react \
   ngrok \
   pm2 \
-  n \
-  expo-cli \
   @vue/cli \
   @feathersjs/cli'
