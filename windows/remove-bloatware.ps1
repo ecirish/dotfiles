@@ -4,16 +4,16 @@
 echo "Removing bloatware:"
 
 # Xbox
-Get-AppxPackage *Microsoft.XboxApp* -AllUsers | Remove-AppxPackage
+# Get-AppxPackage *Microsoft.XboxApp* -AllUsers | Remove-AppxPackage
 
 # Xbox Game Bar
-Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage
+# Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage
 
 # Xbox Gaming Overlay
-Get-AppxPackage *Microsoft.XboxGamingOverlay* -AllUsers | Remove-AppxPackage
+# Get-AppxPackage *Microsoft.XboxGamingOverlay* -AllUsers | Remove-AppxPackage
 
 # Xbox Identity Provider
-Get-AppxPackage *Microsoft.XboxIdentityProvider* -AllUsers | Remove-AppxPackage
+# Get-AppxPackage *Microsoft.XboxIdentityProvider* -AllUsers | Remove-AppxPackage
 
 # Xbox Speech to Text Overlay
 Get-AppxPackage *Microsoft.XboxSpeechToTextOverlay* -AllUsers | Remove-AppxPackage

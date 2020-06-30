@@ -22,7 +22,6 @@ aptitude install \
   nodejs \
   yarn \
   silversearcher-ag \
-  tmux \
   vim \
   python3-dev \
   python3-pip \
