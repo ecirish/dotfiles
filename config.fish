@@ -1,6 +1,6 @@
 alias vi="vim"
 alias ls="ls -laX --color"
-alias dev="cd ~/Development"
+alias dev="cd ~/development"
 
 setenv JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 setenv SSH_ENV $HOME/.ssh/environment
