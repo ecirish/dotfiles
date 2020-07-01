@@ -7,6 +7,7 @@
 ./apt-init/installers/aptitude.sh && \
 ./apt-init/installers/core.sh && \
 
+./apt-init/prerequisites/nvm.sh && \
 ./apt-init/prerequisites/fish.sh && \
 ./apt-init/prerequisites/node.sh && \
 ./apt-init/prerequisites/vim.sh && \
